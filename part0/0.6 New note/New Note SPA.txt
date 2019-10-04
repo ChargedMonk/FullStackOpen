@@ -1,0 +1,15 @@
+title New Note SPA
+
+browser->browser: submit a new note
+
+note over browser: 
+The js code adds the new note 
+to the end of notes list and 
+rerenders the notes list
+end note
+browser->server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+
+note over browser: 
+The js code then sends the 
+new note to the server
+ 
